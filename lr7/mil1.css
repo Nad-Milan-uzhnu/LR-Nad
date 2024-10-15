@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Заголовок H1 */
+h1 {
+    color: hotpink; /* Змінюємо колір заголовка на hotpink */
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 10px dashed purple; /* Пунктирний бордер із кольором purple */
+}
+
+/* Підзаголовок H2 */
+h2 {
+    font-size: 1.5em;
+    font-style: italic; /* Робимо текст курсивом */
+}
+
+/* Список контактних даних */
+ul {
+    background-color: #eeeeee; /* Колір фону */
+    border: 5px solid purple;  /* Фіолетовий бордер */
+    padding: 15px; /* Відступи всередині */
+}
+
+/* Посилання при наведенні */
+a:hover {
+    color: green; /* Зелений колір при наведенні */
+    text-decoration: none;
+}
+
+/* Стили для блоку article */
+#article {
+    background: url('star.svg') right top repeat-y; /* Фонова картинка по вертикалі, праворуч */
+    border: 20px solid blue; /* Синій бордер */
+    border-width: 20px 15px; /* Ширина бордера: 20px зверху і знизу, 15px з боків */
+    padding: 30px 3em 5px 3em; /* Відступи всередині: 30px зверху, 5px знизу, потрійна висота шрифту зліва та справа */
+    height: 150px; /* Висота блоку */
+    overflow-y: auto; /* Скрол по вертикалі при переповненні */
+    margin: 30px 10px; /* Зовнішній відступ: 30px зверху та знизу, 10px з боків */
+    border-radius: 100px / 20px; /* Закруглення кутів по вертикалі та горизонталі */
+}
+
+/* Стиль для останнього параграфа всередині article */
+#article p:last-child {
+    direction: rtl; /* Напрямок тексту справа наліво */
+    color: rgb(47, 183, 68); /* Зміна кольору тексту */
+}
