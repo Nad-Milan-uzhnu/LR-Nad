@@ -1,0 +1,152 @@
+[
+    {
+        "brand": "Tesla",
+        "model": "Model S",
+        "year": 2021,
+        "type": "Sedan",
+        "price": 79999,
+        "electric": true,
+        "features": ["Autopilot", "Long Range Battery", "Ludicrous Mode"],
+        "image": "teslamodels.jpg"
+    },
+    {
+        "brand": "Toyota",
+        "model": "Camry",
+        "year": 2020,
+        "type": "Sedan",
+        "price": 24999,
+        "electric": false,
+        "features": ["Lane Keeping Assist", "Backup Camera", "Adaptive Cruise Control"],
+        "image": "toyotacamry.jpg"
+    },
+    {
+        "brand": "BMW",
+        "model": "X5",
+        "year": 2019,
+        "type": "SUV",
+        "price": 60999,
+        "electric": false,
+        "features": ["Heated Seats", "All-Wheel Drive", "Navigation System"],
+        "image": "bmwx5.jpg"
+    },
+    {
+        "brand": "Chevrolet",
+        "model": "Bolt EV",
+        "year": 2022,
+        "type": "Hatchback",
+        "price": 31999,
+        "electric": true,
+        "features": ["Fast Charging", "Electric Range 259 miles", "Automatic Emergency Braking"],
+        "image": "chevroletboltev.jpg"
+    },
+    {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 2021,
+        "type": "Coupe",
+        "price": 55999,
+        "electric": false,
+        "features": ["Sport Suspension", "Bluetooth", "Premium Sound System"],
+        "image": "fordmustag.jpg"
+    },
+    {
+        "brand": "Audi",
+        "model": "e-tron",
+        "year": 2021,
+        "type": "SUV",
+        "price": 74999,
+        "electric": true,
+        "features": ["All-Wheel Drive", "LED Headlights", "Adaptive Air Suspension"],
+        "image": "audi e tron.jpg"
+    },
+    {
+        "brand": "Nissan",
+        "model": "Leaf",
+        "year": 2018,
+        "type": "Hatchback",
+        "price": 19999,
+        "electric": true,
+        "features": ["Zero Emission", "Remote Climate Control", "Backup Camera"],
+        "image": "nissan leaf.jpg"
+    },
+    {
+        "brand": "Mercedes-Benz",
+        "model": "GLC",
+        "year": 2020,
+        "type": "SUV",
+        "price": 41999,
+        "electric": false,
+        "features": ["Panoramic Roof", "Blind Spot Assist", "360-Degree Camera"],
+        "image": "glc.jpg"
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Kona Electric",
+        "year": 2022,
+        "type": "SUV",
+        "price": 34999,
+        "electric": true,
+        "features": ["Electric Range 258 miles", "Wireless Charging", "Adaptive Cruise Control"],
+        "image": "hyundai kona electric.jpg"
+    },
+    {
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "type": "Sedan",
+        "price": 21999,
+        "electric": false,
+        "features": ["Eco Mode", "Backup Camera", "Lane Departure Warning"],
+        "image": "civic.webp"
+    }, 
+    {
+        "brand": "Porsche",
+        "model": "Taycan",
+        "year": 2021,
+        "type": "Sedan",
+        "price": 89999,
+        "electric": true,
+        "features": ["Electric Sport Sound", "Performance Battery Plus", "Adaptive Air Suspension"],
+        "image": "porschetaycan.jpg"
+    },
+    {
+        "brand": "Volvo",
+        "model": "XC40 Recharge",
+        "year": 2022,
+        "type": "SUV",
+        "price": 53999,
+        "electric": true,
+        "features": ["Pilot Assist", "360-Degree Camera", "Wireless Charging"],
+        "image": "volvoxc40.jpg"
+    },
+    {
+        "brand": "Jeep",
+        "model": "Wrangler 4xe",
+        "year": 2021,
+        "type": "SUV",
+        "price": 49999,
+        "electric": true,
+        "features": ["Plug-in Hybrid", "Off-Road Capability", "Water-Resistant Interior"],
+        "image": "jeepwrangler4xe.jpg"
+    },
+    {
+        "brand": "Chevrolet",
+        "model": "Tahoe",
+        "year": 2020,
+        "type": "SUV",
+        "price": 55999,
+        "electric": false,
+        "features": ["Spacious Interior", "Rear-Seat Entertainment", "Four-Wheel Drive"],
+        "image": "chevrolettahoe.jpg"
+    },
+    {
+        "brand": "Mazda",
+        "model": "MX-5 Miata",
+        "year": 2021,
+        "type": "Convertible",
+        "price": 26999,
+        "electric": false,
+        "features": ["Manual Transmission", "Rear-Wheel Drive", "Convertible Soft Top"],
+        "image": "mazdamx5.jpg"
+    }
+]
