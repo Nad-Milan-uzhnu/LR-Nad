@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    border: 3px solid #333; /* Додаємо рамку */
+    border-radius: 10px; /* Робимо рамку з плавними кутами */
+    padding: 20px; /* Додаємо відступи всередині рамки */
+    background-color: #fff; /* Білий фон для контейнера */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Додаємо тінь для об’єму */
+}
+
+.thumb-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.thumb-bar img {
+    width: 20%;
+    cursor: pointer;
+    margin-right: 5px; /* Додаємо відступ між мініатюрами */
+}
+
+.full-img {
+    position: relative;
+}
+
+.displayed-img {
+    width: 100%;
+    display: block;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0); /* Початково прозорий */
+    transition: background-color 0.3s ease;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.light {
+    background-color: #eee;
+    color: #333;
+}
